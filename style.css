@@ -1,0 +1,60 @@
+body{
+    margin: 0;
+    padding: 10px 0px;
+    font-family: sans-serif;
+}
+img{
+    max-width: 100%;
+}
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.spec-ul li{
+  display:inline-block;
+  border: 1px solid #000;
+  margin: 5px 10px 0px 0px;
+  padding: 5px 10px;
+  font-size: 18px;
+  cursor: pointer;
+  border-radius: 3px;
+
+}
+.pricing-ul li{
+    display: inline-block;
+    margin-right: 50px;
+}
+.spec-ul{
+    padding-bottom: 15px;
+}
+.mac-book-price{
+    margin-top: 40px;
+}
+.mac-book-price ul li{
+    font-size: 22px;
+}
+.pricing-text h5{
+    padding-bottom: 10px;
+}
+.mac-book-price{
+    border-bottom: 2px solid #000;
+}
+.pomo-code ul li{
+    display: inline-block;
+}
+.intotal-price{
+    margin-top: 30px;
+}
+.spec-ul li{
+    transition: 0.5s;
+}
+.spec-ul li:hover{
+   color: white;
+   background: #000;
+}
+
+.total-price-text h5{
+    font-size: 22px;
+}
